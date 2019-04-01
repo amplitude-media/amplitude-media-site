@@ -197,10 +197,21 @@ font-family: 'fjalla one'
     padding-top: 100px;
 }
 
-.slider-title {
+@media  only screen and (min-width: 980px) {
+   .slider-title  {
     font-family: 'fjalla one';
     Color:#fff;
+    font-size: 40px;
 }
+}
+
+@media  only screen and (max-width: 980px) {
+    .slider-title  {
+     font-family: 'fjalla one';
+     Color:#fff;
+     font-size: 50px;
+ }
+ }
 
 .btn-clear {
     background-color:transparent;
