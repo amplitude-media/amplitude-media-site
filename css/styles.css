@@ -85,21 +85,10 @@ a { color: inherit; }
     background:#BABABA;
 }
 
-hero h1{
+h1.hero{
     text-transform: uppercase;
     color:#fff;
     padding-top:80px;
-}
-@media  only screen and (min-width: 980px) {
-/* hero styling */
-.hero h1{
-    text-transform: uppercase;
-    color:#fff;
-    font-weight: 700;
-    font-size: 50px;
-    padding-top:80px;
-
-}
 }
 
 .hero h5{
@@ -237,3 +226,38 @@ font-family: 'fjalla one'
   }
 
 
+  /* services styles */
+
+  .services-hero {
+      background-color: #DD7119;
+  }
+
+  .hero h1 {
+      text-transform: uppercase;
+      font-family:"";
+      color: #fff;
+  }
+
+  .service {
+      height:300px;
+      background-color:#52B6B6;
+  }
+
+
+  /* divider styling */ 
+
+  #divider {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    left:0;
+  }
+
+  /* about styling */
+.about-hero {
+    background-color: #4E1851;
+}
+
+.companies-about {
+    background-color: #132448;
+}
