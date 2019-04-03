@@ -1,0 +1,40 @@
+.scene {
+	background: #4E1851;
+}
+
+.scene path:first-child {
+	fill: rgb(62, 19, 65);
+}
+
+.scene path:nth-child(2) {
+	fill: #782C79;
+}
+
+.scene path:nth-child(3) {
+	fill: #4E1851;
+}
+
+.scene path:nth-child(4) {
+	fill: #782C79;
+}
+
+.scene path:nth-child(5) {
+	fill: #4E1851;
+}
+
+.scene path:nth-child(6) {
+	fill: rgb(62, 19, 65);
+}
+
+.scene path:nth-child(7) {
+	fill: #4E1851;
+}
+
+.title {
+	color: #fff;
+	font-size: 6vw;
+	font-weight: 400;
+	z-index: 1000;
+	font-family: "Arapey", serif;
+	pointer-events: none;
+}
