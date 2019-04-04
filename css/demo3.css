@@ -32,9 +32,9 @@
 
 .title {
 	color: #fff;
-	font-size: 6vw;
-	font-weight: 400;
+	font-size: 5vw;
+	font-weight: 300;
 	z-index: 1000;
-	font-family: "Arapey", serif;
+	font-family: "fjalla one";
 	pointer-events: none;
 }
