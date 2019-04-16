@@ -60,151 +60,38 @@
     </div>
   </nav> 
     
-          <div id="myCarousel" class="carousel slide" data-ride="carousel">
-              <ol class="carousel-indicators">
-                <li data-target="#myCaraousel" data-slide-to="0" class="active"></li>
-                <li data-target="#myCaraousel" data-slide-to="1"></li>
-                <li data-target="#myCaraousel" data-slide-to="2"></li>
-                <li data-target="#myCaraousel" data-slide-to="3"></li>
-              </ol>
-              <div class="carousel-inner">
-                
-                  <div class="carousel-item active">
-                    <svg class="bd-placeholder-img" width="100%" height="100%" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice" focusable="false" role="img"><rect width="100%" height="100%" fill="#4E1851"/></svg>
-                      <div class="carousel-caption text-left align-items-center">
-                        <div class="row align-items-center">
-                          <div class=>
-                        <h1 class="slider-title">Hi, we’re Amplitude Media! Nice to meet you. We're a Creative Agency located in to PHX Arizona.
-                           </h1>
-                            <button class="btn-clear"><a href="about-us.html">Tell me more</a></button>
-                          </div>
-                    </div>
-                  </div>
-                </div>
+  <link rel="stylesheet" type="text/css" href="https://unpkg.com/fullpage.js/dist/fullpage.min.css">
+  <link href="./styles.css" rel="stylesheet">
+  <div id="app">
+      <full-page :options="options" id="fullpage" ref="fullpage">
+          <div class="section">
+              <h3>vue-fullpage.js</h3>
+          </div>
+          <div class="section">
+              <div class="slide">
+                  <h3>Slide 2.1</h3>
               </div>
-              <div class="carousel-inner">
-                <!-- Slide One - Set the background image for this slide in the line below -->
-                <div class="carousel-item " style="background-color: #4E1851">
-                    <div class="container">
-                        <div class="row">
-                          <div class="">
-                      <h1 class="slider-title">Hi, we’re Amplitude Media
-                          a Creative Agency 
-                          in PHX AZ</h1>
-                      <button class="btn-clear"><a href="about-us.html">Tell me more</a></button>
-                    </div>
-                    <div>
+              <div class="slide">
+                  <h3>Slide 2.2</h3>
+              </div>
+              <div class="slide">
+                  <h3>Slide 2.3</h3>
+              </div>
+          </div>
+          <div class="section">
+              <h3>Section 3</h3>
+          </div>
+      </full-page>
+      
+      <a class="view-github" href="https://github.com/alvarotrigo/vue-fullpage.js" target="_blank">View on Github</a>
+      
   
-                    </div>
-                  </div>
-                  </div>
-                  </div>
-                <!-- Slide Two - Set the background image for this slide in the line below -->
-                <div class="carousel-item" style="background-color:#DD7119">
-                  <div class="container">
-                      <div class="row h-100 justify-content-center align-items-center">
-                        <div class="col-6">
-                    <h1 class="slider-title">We create stories and 
-                        build digital experiences</h1>
-                    <button class="btn-clear">Services</button>
-                  </div>
-                  <div>
-
-                  </div>
-                </div>
-                </div>
-                </div>
-                <!-- Slide Three - Set the background image for this slide in the line below -->
-                <div class="carousel-item" style="background-color:#10525C">
-                    <div class="container h-100">
-                        <div class="row h-100 justify-content-center align-items-center">
-                          <div class="col-6">
-                      <h1 class="slider-title">We’ve worked with some pretty
-                          amazing brands </h1>
-                      <button class="btn-clear" href="http://www.test.com"> Portfolio
-                      
-                      </button>
-                    </div>
-                    <div>
+  </div>
   
-                    </div>
-                  </div>
-                  </div>
-                  </div>
-
-                <!-- Slide four - Set the background image for this slide in the line below -->
-                <div class="carousel-item" style="background-color:#1E3667">
-                    <div class="container h-100">
-                        <div class="row h-100 justify-content-center align-items-center">
-                          <div class="col-6">
-                      <h1 class="slider-title">Something enticing</h1>
-                      <button class="btn-clear">CTA</button>
-                    </div>
-                    <div>
   
-                    </div>
-                  </div>
-                  </div>
-                  </div>
-<div class="carousel-controls">
-              <a class="carousel-control-prev" href="#myCaraousel" role="button" data-slide="prev">
-                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                    <span class="sr-only">Previous</span>
-                  </a>
-              <a class="carousel-control-next" href="#myCaraousel" role="button" data-slide="next">
-                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                    <span class="sr-only">Next</span>
-                  </a>
-                </div>
-            </div>
-
-            
-    <!-- Scripts -->
-
-    <script type="text/javascript" src="js/jquery.min.js"></script>
-    <script type="text/javascript" src="js/popper.min.js"></script>
-    <script type="text/javascript" src="js/bootstrap.js"></script>
-
-    <!-- Optional Vendor Scripts (Remove the plugin script if current page does not use that feature) -->
-
-    <!-- AOS (Animate On Scroll - animates elements into view while scrolling down) -->
-    <script type="text/javascript" src="js/aos.js"></script>
-    <!-- Clipboard (copies content from browser into OS clipboard) -->
-    <script type="text/javascript" src="js/clipboard.js"></script>
-    <!-- Fancybox (handles image and video lightbox and galleries) -->
-    <script type="text/javascript" src="js/jquery.fancybox.min.js"></script>
-    <!-- Flickity (handles touch enabled carousels and sliders) -->
-    <script type="text/javascript" src="js/flickity.pkgd.min.js"></script>
-    <!-- Ion rangeSlider (flexible and pretty range slider elements) -->
-    <script type="text/javascript" src="js/ion.rangeSlider.min.js"></script>
-    <!-- Isotope (masonry layouts and filtering) -->
-    <script type="text/javascript" src="js/isotope.pkgd.min.js"></script>
-    <!-- jarallax (parallax effect and video backgrounds) -->
-    <script type="text/javascript" src="js/jarallax.min.js"></script>
-    <script type="text/javascript" src="js/jarallax-video.min.js"></script>
-    <script type="text/javascript" src="js/jarallax-element.min.js"></script>
-    <!-- jQuery Countdown (displays countdown text to a specified date) -->
-    <script type="text/javascript" src="js/jquery.countdown.min.js"></script>
-    <!-- Plyr (unified player for Video, Audio, Vimeo and Youtube) -->
-    <script type="text/javascript" src="js/plyr.polyfilled.min.js"></script>
-    <!-- Prism (displays formatted code boxes) -->
-    <script type="text/javascript" src="js/prism.js"></script>
-    <!-- ScrollMonitor (manages events for elements scrolling in and out of view) -->
-    <script type="text/javascript" src="js/scrollMonitor.js"></script>
-    <!-- Smooth scroll (animation to links in-page)-->
-    <script type="text/javascript" src="js/smooth-scroll.polyfills.js"></script>
-    <!-- TwitterFetcher (displays a feed of tweets from a specified account)-->
-    <script type="text/javascript" src="js/twitterFetcher_min.js"></script>
-    <!-- Typed text (animated typing effect)-->
-    <script type="text/javascript" src="js/typed.min.js"></script>
-    <!-- Required theme scripts (Do not remove) -->
-    <script type="text/javascript" src="js/theme.js"></script>
-    <!-- Removes page load animation when window is finished loading -->
-    <script type="text/javascript">
-      window.addEventListener("load", function () {
-        document.querySelector('body').classList.add('loaded');
-      });
-    </script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/vue/2.5.13/vue.min.js"></script>
+  <script src="https://unpkg.com/vue-fullpage.js/dist/vue-fullpage.js"></script>
+  <script src="./scroll.js"></script>
 
   </body>
 
