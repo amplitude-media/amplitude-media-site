@@ -1,16 +1,24 @@
 <link href="https://fonts.googleapis.com/css?family=Merriweather" rel="stylesheet">
 <link href="https://fonts.googleapis.com/css?family=Fjalla+One" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
 <link rel="stylesheet" type="text/css" href="https://unpkg.com/fullpage.js/dist/fullpage.min.css">
 <link href="css/vue.css" rel="stylesheet">
+<link href="css/arrow.css" rel="stylesheet">
 
 <div id="app">
     <full-page :options="options" id="fullpage" ref="fullpage">
         <div class="section" id="section-1">
             <h3>Hi, we're Amplitude Media</h3>
+            <div class="downArrow bounce">
+                <img class="change-my-color" width="40" height="40" alt=""
+                    src="data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/PjwhRE9DVFlQRSBzdmcgIFBVQkxJQyAnLS8vVzNDLy9EVEQgU1ZHIDEuMS8vRU4nICAnaHR0cDovL3d3dy53My5vcmcvR3JhcGhpY3MvU1ZHLzEuMS9EVEQvc3ZnMTEuZHRkJz48c3ZnIGVuYWJsZS1iYWNrZ3JvdW5kPSJuZXcgMCAwIDMyIDMyIiBoZWlnaHQ9IjMycHgiIGlkPSLQodC70L7QuV8xIiB2ZXJzaW9uPSIxLjEiIHZpZXdCb3g9IjAgMCAzMiAzMiIgd2lkdGg9IjMycHgiIHhtbDpzcGFjZT0icHJlc2VydmUiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgeG1sbnM6eGxpbms9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkveGxpbmsiPjxwYXRoIGQ9Ik0yNC4yODUsMTEuMjg0TDE2LDE5LjU3MWwtOC4yODUtOC4yODhjLTAuMzk1LTAuMzk1LTEuMDM0LTAuMzk1LTEuNDI5LDAgIGMtMC4zOTQsMC4zOTUtMC4zOTQsMS4wMzUsMCwxLjQzbDguOTk5LDkuMDAybDAsMGwwLDBjMC4zOTQsMC4zOTUsMS4wMzQsMC4zOTUsMS40MjgsMGw4Ljk5OS05LjAwMiAgYzAuMzk0LTAuMzk1LDAuMzk0LTEuMDM2LDAtMS40MzFDMjUuMzE5LDEwLjg4OSwyNC42NzksMTAuODg5LDI0LjI4NSwxMS4yODR6IiBmaWxsPSIjMTIxMzEzIiBpZD0iRXhwYW5kX01vcmUiLz48Zy8+PGcvPjxnLz48Zy8+PGcvPjxnLz48L3N2Zz4=" />
+            </div>
         </div>
+
         <div class="section" id="section-2">
             <div class="slide">
                 <h3>We build websites...</h3>
+                <di class="arrow bounce"></di>
             </div>
             <div class="slide">
                 <h3>write stories...</h3>
@@ -20,26 +28,39 @@
                 <div class="btn-container">
                     <div class="btn-clear">
                         <p>test</p>
-                      </div>
+                    </div>
                 </div>
-                
-                  
+
+
             </div>
         </div>
-        <div class="section" id="section-3">
-            <h3>Let's make some magic.
-            </h3>
-            <a href="./contact.html" class="btn-container">
-        <button class="btn-clear">
-            Alakazam
-        </button>
-            </a>
-        </div>
-    </full-page>
+
+        <!-- Barba starts -->
         
+                    <div class="section" id="section-3">
+                        <h3>Let's make some magic.
+                        </h3>
+
+                        <div id="barba-wrapper">
+                                <div class="barba-container">
+                                    <div class="warapper">
+                        <div class="btn-container">
+                            <button class="btn-clear">
+                                <a href="./contact/index.html">Alakazam</a>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </full-page>
+
 </div>
 
 
 <script src="https://cdnjs.cloudflare.com/ajax/libs/vue/2.5.13/vue.min.js"></script>
 <script src="https://unpkg.com/vue-fullpage.js/dist/vue-fullpage.js"></script>
 <script src="js/vue.js"></script>
+<script src="https://unpkg.com/@barba/core"></script>
+<script src="js/test.js"></script>

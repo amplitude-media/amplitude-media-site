@@ -1,98 +1,53 @@
-<!DOCTYPE html>
-<html>
-    <head>
-        <meta charset="utf-8">
-        <title>Amplitude Media</title>
-    
-        <!-- Styles -->    
-        <!--<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">-->
-        <link rel="stylesheet"  href="css/theme.css">
-        <link rel="stylesheet"  href="css/styles.css">
-    
-    
-        <!-- Fonts -->
-        <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
-        <link href="https://fonts.googleapis.com/css?family=Fjalla+One" rel="stylesheet">
-      </head>
+<link href="https://fonts.googleapis.com/css?family=Merriweather" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Fjalla+One" rel="stylesheet">
+<link rel="stylesheet" type="text/css" href="https://unpkg.com/fullpage.js/dist/fullpage.min.css">
+<link href="css/vue.css" rel="stylesheet">
+<link href="css/arrow.css" rel="stylesheet">
 
-  <body>
-      <div class="loader">
-          <div class="loading-animation"></div>
+<div id="app">
+    <full-page :options="options" id="fullpage" ref="fullpage">
+        <div class="section" id="section-1">
+            <h3>Hi, we're Amplitude Media</h3>
+            <div class="downArrow bounce">
+                <img class="change-my-color"width="40" height="40" alt="" src="data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/PjwhRE9DVFlQRSBzdmcgIFBVQkxJQyAnLS8vVzNDLy9EVEQgU1ZHIDEuMS8vRU4nICAnaHR0cDovL3d3dy53My5vcmcvR3JhcGhpY3MvU1ZHLzEuMS9EVEQvc3ZnMTEuZHRkJz48c3ZnIGVuYWJsZS1iYWNrZ3JvdW5kPSJuZXcgMCAwIDMyIDMyIiBoZWlnaHQ9IjMycHgiIGlkPSLQodC70L7QuV8xIiB2ZXJzaW9uPSIxLjEiIHZpZXdCb3g9IjAgMCAzMiAzMiIgd2lkdGg9IjMycHgiIHhtbDpzcGFjZT0icHJlc2VydmUiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgeG1sbnM6eGxpbms9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkveGxpbmsiPjxwYXRoIGQ9Ik0yNC4yODUsMTEuMjg0TDE2LDE5LjU3MWwtOC4yODUtOC4yODhjLTAuMzk1LTAuMzk1LTEuMDM0LTAuMzk1LTEuNDI5LDAgIGMtMC4zOTQsMC4zOTUtMC4zOTQsMS4wMzUsMCwxLjQzbDguOTk5LDkuMDAybDAsMGwwLDBjMC4zOTQsMC4zOTUsMS4wMzQsMC4zOTUsMS40MjgsMGw4Ljk5OS05LjAwMiAgYzAuMzk0LTAuMzk1LDAuMzk0LTEuMDM2LDAtMS40MzFDMjUuMzE5LDEwLjg4OSwyNC42NzksMTAuODg5LDI0LjI4NSwxMS4yODR6IiBmaWxsPSIjMTIxMzEzIiBpZD0iRXhwYW5kX01vcmUiLz48Zy8+PGcvPjxnLz48Zy8+PGcvPjxnLz48L3N2Zz4=" />
+            </div>
         </div>
 
- <!--Navigation -->
- <nav class="navbar navbar-light navbar-expand-md fixed-top">
-    <div class="mx-auto d-sm-flex d-block flex-sm-nowr">
-        <ul class="navbar-nav">
-            <li class="logo">
-            <a href="index.html">
-              <img src="img/logo.png"  alt="Amplitude Media" height="42" width="42"></img>
-            </a>
-            </li>
-          </ul>
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
-    </button>
-    <div class="collapse navbar-collapse" id="navbarNavDropdown">
-      <ul class="navbar-nav">
-        <li class="nav-item ">
-          <a class="nav-link" href="services.html">Services <span class="sr-only">(current)</span></a>
-        </li>
-        <li class="nav-item  ">
-          <a class="nav-link" href="portfolio.html">Portfolio</a>
-        </li>
-        <ul class="navbar-nav">
-        <li class="nav-item dropdown">
-          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-            About
-          </a>
-          <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-            <a class="dropdown-item" href="about.html">Us</a>
-            <a class="dropdown-item" href="partners.html">Our Partners</a>
-            <a class="dropdown-item" href="arcade.html">The Arcade</a>
-          </div>
-        </li>
-        <li class="nav-item">
-            <a class="nav-link" href="#">Contact</a>
-          </li>
-      </ul>
-    </div>
-    </div>
-  </nav> 
-    
-  <link rel="stylesheet" type="text/css" href="https://unpkg.com/fullpage.js/dist/fullpage.min.css">
-  <link href="./styles.css" rel="stylesheet">
-  <div id="app">
-      <full-page :options="options" id="fullpage" ref="fullpage">
-          <div class="section">
-              <h3>vue-fullpage.js</h3>
-          </div>
-          <div class="section">
-              <div class="slide">
-                  <h3>Slide 2.1</h3>
-              </div>
-              <div class="slide">
-                  <h3>Slide 2.2</h3>
-              </div>
-              <div class="slide">
-                  <h3>Slide 2.3</h3>
-              </div>
-          </div>
-          <div class="section">
-              <h3>Section 3</h3>
-          </div>
-      </full-page>
-      
-      <a class="view-github" href="https://github.com/alvarotrigo/vue-fullpage.js" target="_blank">View on Github</a>
-      
-  
-  </div>
-  
-  
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/vue/2.5.13/vue.min.js"></script>
-  <script src="https://unpkg.com/vue-fullpage.js/dist/vue-fullpage.js"></script>
-  <script src="./scroll.js"></script>
+        <div class="section" id="section-2">
+            <div class="slide">
+                <h3>Want to be friends?</h3>
+                <di class="arrow bounce"></di>
+            </div>
+            <div class="slide">
+                <h3>We can make things together.</h3>
+                <p>All of them.</p>
+            </div>
+            <div class="slide">
+                <h3>Interested?</h3>
+                  
+            </div>
+        </div>
+        <div class="section" id="section-3">
+            <h3>Let's make some magic.
+            </h3>
+            <p>
+                Pick a card, any card.
+            </p>
+         <div class="button-container">
+            <button href="contact/index.html" class="btn-clear">
+             <a> Past (portfolio)</a>
+            </button>
+            <button href="contact/index.html" class="btn-clear">
+            <a> Future (services)</a>
+            </button>
+         </div>
+        </div>
+    </full-page>
+        
+</div>
 
-  </body>
 
-</html>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/vue/2.5.13/vue.min.js"></script>
+<script src="https://unpkg.com/vue-fullpage.js/dist/vue-fullpage.js"></script>
+<script src="js/vue.js"></script>
+<script src="js/transitions/transition.js"
